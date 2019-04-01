@@ -1,6 +1,6 @@
 import os
 from flask import Flask, jsonify, render_template, request, redirect, url_for, flash
-from flask_cors import CORS
+# from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'static/img/'
